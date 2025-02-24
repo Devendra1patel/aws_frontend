@@ -10,7 +10,8 @@ function Login() {
 
   const handleLogin = async () => {
     try {
-      const response = await axios.post("http://localhost:5000/api/user/v1/login", {
+      // const response = await axios.post("http://13.51.193.236:5000//api/user/v1/login", {
+      const response = await axios.post("http://13.51.193.236:5000/api/user/v1/login", {
         email,
         password,
       });
